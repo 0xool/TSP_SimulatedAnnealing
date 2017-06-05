@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <math.h>
 
 #define TEMPRETURE  1000
 #define COOLINGRATE  0.3
@@ -26,7 +27,7 @@ public:
     
     float badStepChance();
     int generateRandomSolution();
-    float acceptanceRate();
+    float acceptanceRate(int cost , int currentCost , float temp);
     
 
     
