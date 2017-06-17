@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A5A06AB81EE58FC500FB0D87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A06AB71EE58FC500FB0D87 /* main.cpp */; };
 		A5A06AC01EE58FE300FB0D87 /* SimulatedAnealing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A06ABE1EE58FE300FB0D87 /* SimulatedAnealing.cpp */; };
+		A5A06AC31EE59C9000FB0D87 /* City.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A06AC11EE59C9000FB0D87 /* City.cpp */; };
+		A5A06AC61EE5A14B00FB0D87 /* TourManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A06AC41EE5A14B00FB0D87 /* TourManager.cpp */; };
+		A5A06AC91EE5A81300FB0D87 /* Tour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A06AC71EE5A81300FB0D87 /* Tour.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		A5A06AB71EE58FC500FB0D87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A5A06ABE1EE58FE300FB0D87 /* SimulatedAnealing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimulatedAnealing.cpp; sourceTree = "<group>"; };
 		A5A06ABF1EE58FE300FB0D87 /* SimulatedAnealing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimulatedAnealing.hpp; sourceTree = "<group>"; };
+		A5A06AC11EE59C9000FB0D87 /* City.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = City.cpp; sourceTree = "<group>"; };
+		A5A06AC21EE59C9000FB0D87 /* City.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = City.hpp; sourceTree = "<group>"; };
+		A5A06AC41EE5A14B00FB0D87 /* TourManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TourManager.cpp; sourceTree = "<group>"; };
+		A5A06AC51EE5A14B00FB0D87 /* TourManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TourManager.hpp; sourceTree = "<group>"; };
+		A5A06AC71EE5A81300FB0D87 /* Tour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tour.cpp; sourceTree = "<group>"; };
+		A5A06AC81EE5A81300FB0D87 /* Tour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tour.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				A5A06AB71EE58FC500FB0D87 /* main.cpp */,
 				A5A06ABE1EE58FE300FB0D87 /* SimulatedAnealing.cpp */,
 				A5A06ABF1EE58FE300FB0D87 /* SimulatedAnealing.hpp */,
+				A5A06AC11EE59C9000FB0D87 /* City.cpp */,
+				A5A06AC21EE59C9000FB0D87 /* City.hpp */,
+				A5A06AC41EE5A14B00FB0D87 /* TourManager.cpp */,
+				A5A06AC51EE5A14B00FB0D87 /* TourManager.hpp */,
+				A5A06AC71EE5A81300FB0D87 /* Tour.cpp */,
+				A5A06AC81EE5A81300FB0D87 /* Tour.hpp */,
 			);
 			path = AI_Final_Project;
 			sourceTree = "<group>";
@@ -125,8 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A06AC31EE59C9000FB0D87 /* City.cpp in Sources */,
+				A5A06AC61EE5A14B00FB0D87 /* TourManager.cpp in Sources */,
 				A5A06AB81EE58FC500FB0D87 /* main.cpp in Sources */,
 				A5A06AC01EE58FE300FB0D87 /* SimulatedAnealing.cpp in Sources */,
+				A5A06AC91EE5A81300FB0D87 /* Tour.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,13 @@
 
 #include <iostream>
 #include "SimulatedAnealing.hpp"
+#include <cstdlib>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     SimulatedAnealing SA = *new SimulatedAnealing(4);
+    
     
     
     return 0;

@@ -13,14 +13,18 @@
 #include <iostream>
 #include <math.h>
 
-#define TEMPRETURE  1000
-#define COOLINGRATE  0.3
+#include "Tour.hpp"
+#include "City.hpp"
+
+#define TEMPRETURE  10000
+#define COOLINGRATE  0.003
 
 class SimulatedAnealing {
     
     
 public:
     
+    //myImplementation
     int T = 1000;
     SimulatedAnealing();
     SimulatedAnealing(int solutionSize);
@@ -29,10 +33,8 @@ public:
     int generateRandomSolution();
     float acceptanceRate(int cost , int currentCost , float temp);
     
-
-    
-    
-    
+    //suggestedImplementation
+    void simulatedAnealing();
     
     
 };
